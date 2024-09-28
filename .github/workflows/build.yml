@@ -39,5 +39,5 @@ jobs:
           VCS_REF=${{ env.VCS_REF }}
           VERSION=${{ env.VERSION }}
         tags: |
-          ${{ secrets.DOCKER_USERNAME }}/jmusicbot:${{ env.VERSION }}
-          ${{ secrets.DOCKER_USERNAME }}/jmusicbot:latest
+          ${{ secrets.DOCKER_USERNAME }}/jmusicbot-fork:${{ env.VERSION }}
+          ${{ secrets.DOCKER_USERNAME }}/jmusicbot-fork:latest
