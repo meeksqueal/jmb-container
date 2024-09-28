@@ -8,13 +8,13 @@ ARG VERSION
 
 LABEL org.label-schema.schema-version="1.0"
 LABEL org.label-schema.build-date=$BUILD_DATE
-LABEL org.label-schema.name="craumix/jmusicbot"
+LABEL org.label-schema.name="squealester/jmusicbot-fork"
 LABEL org.label-schema.description="Java based Discord music bot"
 LABEL org.label-schema.url="https://github.com/jagrosh/MusicBot"
-LABEL org.label-schema.vcs-url="https://github.com/craumix/jmb-container"
+LABEL org.label-schema.vcs-url="https://github.com/meeksqueal/jmb-container"
 LABEL org.label-schema.vcs-ref=$VCS_REF
 LABEL org.label-schema.version=$VERSION
-LABEL org.label-schema.docker.cmd="docker run -v ./config:/jmb/config -d craumix/jmusicbot"
+LABEL org.label-schema.docker.cmd="docker run -v ./config:/jmb/config -d squealester/jmusicbot-fork"
 
 RUN apk add --update --no-cache \
     openjdk11-jre-headless tini
